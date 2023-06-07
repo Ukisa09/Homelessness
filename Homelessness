@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help the Homeless</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Help the Homeless</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper sagittis ante ut consequat. Integer vulputate eleifend tortor, vitae interdum dolor eleifend sed. Praesent facilisis, metus a mattis tempus, lacus odio interdum mauris, eget fermentum mi enim et nunc.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Food and shelter</li>
+      <li>Medical assistance</li>
+      <li>Job placement</li>
+      <li>Skills training</li>
+    </ul>
+  </section>
+
+  <section id="donate">
+    <h2>Donate</h2>
+    <p>Support our cause by making a donation:</p>
+    <form>
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" name="amount">
+      <button type="submit">Donate</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you have any questions or feedback, please fill out the form below:</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Help the Homeless. All rights reserved.</p>
+  </footer>
+</body>
+</html>
